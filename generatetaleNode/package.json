@@ -1,7 +1,6 @@
 {
   "name": "generatetalenode",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +12,7 @@
     "@babel/core": "^7.19.1",
     "@babel/node": "^7.19.1",
     "@babel/preset-env": "^7.19.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

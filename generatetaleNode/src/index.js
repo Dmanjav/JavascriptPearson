@@ -1,6 +1,5 @@
-import { createMultiplicatonTable } from './generateTable';
+import {createMultiplicatonTable} from './generateTable';
 
-function onGeneratePress(){
     let args = process.argv.slice(2);
 
     let rowsInput = args[0];
@@ -16,4 +15,3 @@ function onGeneratePress(){
     } else {
         console.log("Error: Invalid Input")
     }
-}
